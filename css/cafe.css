@@ -1,0 +1,11 @@
+
+/*	works*/
+
+.jumbotron {
+	background-color: rgba(0, 0, 0, .3	) !important;
+	background: url(../images/outside.jpg) center / cover no-repeat;
+	background-blend-mode: color;
+	color: #fff;
+
+	/*background-image: url('http://placekitten.com/1500/1000');*/
+}
