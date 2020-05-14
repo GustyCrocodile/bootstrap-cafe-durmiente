@@ -9,14 +9,14 @@
 	<link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<title>Cafe Durmiente | Gallery</title>
 
-	<link href="css/style.css" rel="stylesheet">
+	<link href="css/cafe.css" rel="stylesheet">
 
 </head>
 <body>
 
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> <!--  -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark default">
 		<div class="container">
-			<a class="navbar-brand" href="index.html">Cafe Durmiente	</a>
+			<a class="navbar-brand" href="index.html">Cafe Durmiente</a>
 
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -52,18 +52,125 @@
 			</div>
 		</div>
 	</nav>
-	
-	<br>
-	<br>
-	<br>
-	<br>
 
+	<div class="container">
+		<div class="row">
+			<div class="col-xl">
+				<div class="">
+				<table class="table table-borderless">
+					<thead>
+						<tr>
+							<th scope="col"></th>
+							<th scope="col">Dish</th>
+							<th scope="col">Name</th>
+							<th scope="col">Description</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th class="row">1</th>
+							<td class="w-25">
+								<img class="img-fluid" src="images/food/Arroz-con-Pollo.jpg" alt="Image of Arroz con Pollo">
+							</td>
+							<td>Arroz con pollo ecuadorian</td>
+							<td>
+								Arroz con pollo is a traditional dish of Spain and Latin America. It's rice, chicken and vegetables.
+							</td>
+						</tr>
 
-	<footer class="py-5 bg-dark">
-		<div class="container">
-			<p class="m-0 text-center text-white">Footer</p>
+						<tr>
+							<th class="row">2</th>
+							<td class="w-25">
+								<img class="img-fluid" src="images/food/shrimp.jpg" alt="Ceviche">
+							</td>
+							<td>Ceviche</td>
+							<td>
+								A seafood dish originating in Peru, typically made from fresh raw fish cured in citrus juices, such as lemon or lime, and spiced with ají, chili peppers or other seasonings. It's shrimp marinated in lime and orange juice with red onions.
+							</td>
+						</tr>
+
+						<tr>
+							<th class="row">3</th>
+							<td class="w-25">
+								<img class="img-fluid" src="images/food/llapingachos.jpg" alt="Llapingachos">
+
+							</td>
+							<td>Llapingachos</td>
+							<td>
+								They are potato patties made with cheese and cooked on a griddle until golden brown.							
+							</td>
+						</tr>
+
+						<tr>
+							<th class="row">4</th>
+							<td class="w-25">
+								<img src="images/espresso.jpeg" alt="cup of espresso" class="img-fluid">
+							</td>
+							<td>Espresso</td>
+							<td>
+								Espresso is a full-flavored, concentrated form of coffee that is served in “shots.”
+							</td>
+						</tr>
+
+						<tr>
+							<th class="row">5</th>
+							<td class="w-25">
+								<img src="images/Latte.jpg" alt="cup of latte" class="img-fluid">
+							</td>
+							<td>Latte</td>
+							<td>
+								Latte is a coffee-based drink made primarily from espresso and steamed milk. 
+								It consists of one-third espresso, two-thirds heated milk and about 1cm of foam. 
+							</td>
+						</tr>
+
+					</tbody>
+				</table>
+				</div>
+			</div>
 		</div>
-			<!-- /.container -->
+	</div>
+	
+	<footer class="footer container py-5">
+		<div class="row">
+			<div class="col-6 col-md">
+				<h5>Opening Hours</h5>
+				<ul class="list-unstyled text-small">
+					<li><span class="text-muted">Monday : </span>Closed</li>
+					<li><span class="text-muted">Tue-Wed : </span>9:00 - 22:00</li>
+					<li><span class="text-muted">Thu-Fri : </span>10:00 - 22:00</li>
+					<li><span class="text-muted">Sat-Sun : </span>10:00 - 00:00</li>
+				</ul>
+			</div>
+			
+			<div class="col-md">
+				<ul class="list-unstyled">
+					<h5>Contact Info</h5>
+					<li><span class="text-muted">Adress : </span>Lāčaplēša iela 12, Centra raj., Rīga, LV-1010</li>
+					<li><span class="text-muted">Phone : </span>+371 2000 800 9999</li>
+					<li><span class="text-muted">Email : </span>info@cafe.com</li>
+				</ul>
+			</div>	
+
+			<div class="col-6 col-md">
+				<h5>Send A Message</h5>
+				<form>
+					<div class="form-group">
+						<label for="formName">Your Name</label>
+						<input id="formName" type="name" class="form-control" placeholder="Name">
+					</div>
+					<div class="form-group">
+						<label for="formEmail">Your Email</label>
+						<input id="formEmail" type="email" class="form-control" placeholder="Email">
+					</div>
+					<label for="formMessage">Your Message</label>
+					<div id="formMessage" class="form-group">
+						<textarea name="form-control" placeholder="Message"></textarea>
+					</div>
+
+				</form>
+			</div>			
+		</div>
 	</footer>
 	
 </body>
