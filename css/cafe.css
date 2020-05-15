@@ -1,17 +1,91 @@
 
-/*	works*/
+/*		Importing Fonts 	*/
+
+@import url(https://fonts.googleapis.com/css2?family=Concert+One&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Asap&display=swap)
+
+
 body {
 	/*background: #E8E8E8;*/
+	font-family: Asap;
 }
 
-.jumbotron {
+.main-jumbotron {
 	background-color: rgba(0, 0, 0, .3	) !important;
 	background: url(../images/outside.jpg) center / cover no-repeat;
 	background-blend-mode: color;
 	color: #fff;
 }
 
-.footer {
-	background-color: #d80032;
+.menu-jumbotron {
+	background-color: rgba(0, 0, 0, .3	) !important;
+	background: url(../images/bar.jpg) center / cover no-repeat;
+	background-blend-mode: color;
+	color: #fff;
 }
 
+.gallery-jumbotron {
+	background-color: rgba(0, 0, 0, .3	) !important;
+	background: url(../images/plate.jpg) center / cover no-repeat;
+	background-blend-mode: color;
+	color: #fff;
+}
+
+.contact-jumbotron {
+	background-color: rgba(0, 0, 0, .3	) !important;
+	background: url(../images/restaurant.jpg) center / cover no-repeat;
+	background-blend-mode: color;
+	color: #fff;
+}
+
+/*		Navbar		*/
+
+.navbar {
+	background: #EDF2F4 !important;
+	font-family: Concert One !important;
+}
+
+.top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover {
+	background: #EF233C;
+	color: #EDF2F4;
+	border-radius: 4px;
+}
+
+.top-navbar .navbar-light .navbar-nav .nav-item.active .nav-link {
+	background: #EF233C;
+	color: #EDF2F4;
+	border-radius: 4px;
+}
+
+.top-navbar .navbar-light .navbar-nav .nav-link {
+	color: #010101;
+	font-size: 20px;
+	margin: 1px;
+	padding: 0px 20px;
+	border-radius: 4px;
+}
+
+.navbar-expand-md .navbar-nav .dropdown-menu a.dropdown-item:hover {
+	background: #EF233C;
+	color: #EDF2F4;
+}
+
+.navbar-expand-md .navbar-nav .dropdown-menu {
+	box-shadow: none;
+	border: none;
+	background: #EDF2F4;
+}
+
+
+/*		...		*/
+
+.table > tbody > tr > td {
+     vertical-align: middle;
+}
+
+.footer {
+	background-color: rgba(0, 0, 0, .2	) !important;
+	background: url(../images/chicken.jpg) center / cover no-repeat;;
+	background-blend-mode: color;
+	color: #fff;
+}
